@@ -25,15 +25,15 @@ Prices were originally provided in Indian Rupees (INR) and converted to USD to e
 - Scikit-learn
 
 ## 📂 Project Structure
-smartphones-project/
-├── data/
-│   └── smartphones.csv
-├── notebooks/
-│   ├── 01_eda.ipynb
-│   ├── 02_model.ipynb
-│   └── 03_price_segmentation_and_recommendations.ipynb
-├── README.md
-├── requirements.txt
+smartphones-project/ \n
+├── data/ \n
+│   └── smartphones.csv \n
+├── notebooks/ \n
+│   ├── 01_eda.ipynb \n
+│   ├── 02_model.ipynb \n
+│   └── 03_price_segmentation_and_recommendations.ipynb \n
+├── README.md \n
+├── requirements.txt \n
 
 ## 🚀 How to Run
 1. Clone this repository  
