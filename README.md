@@ -1,4 +1,3 @@
-
 # 📱 Smartphone Price Analysis & Prediction
 
 ## 📌 Project Overview
@@ -25,8 +24,6 @@ Prices were originally provided in Indian Rupees (INR) and converted to USD to e
 - Scikit-learn
 
 ## 📂 Project Structure
-
-```text
 smartphones-project/
 ├── data/
 │   └── smartphones.csv
@@ -36,7 +33,6 @@ smartphones-project/
 │   └── 03_price_segmentation_and_recommendations.ipynb
 ├── README.md
 ├── requirements.txt
-```
 
 ## 🚀 How to Run
 1. Clone this repository  
@@ -50,16 +46,21 @@ smartphones-project/
 ---
 
 ## 🤖 Modeling & Results
-Two regression models were trained to predict smartphone prices (USD):
+Three regression models were trained to predict smartphone prices (USD):
 
-- **Random Forest Regressor**
 - **Linear Regression (baseline)**
+- **Random Forest Regressor**
+- **Gradient Boosting Regressor**
 
 ### 📊 Model Performance (MAE)
-- **Random Forest:** ~ **$45 USD**
-- **Linear Regression:** ~ **$95 USD**
 
-The Random Forest model significantly outperformed the linear baseline, demonstrating its ability to capture non-linear relationships between smartphone specifications and price.
+| Model | MAE (USD) |
+|------|-----------|
+| Random Forest | ~ **$47 USD** |
+| Gradient Boosting | ~ **$50 USD** |
+| Linear Regression | ~ **$105 USD** |
+
+Ensemble-based models (Random Forest and Gradient Boosting) significantly outperformed the linear baseline, highlighting the importance of capturing non-linear relationships between smartphone specifications and price.
 
 ---
 
@@ -71,7 +72,7 @@ The most influential features in pricing were:
 - Battery capacity
 - Storage
 
-This aligns well with real-world expectations of smartphone pricing.
+This aligns well with real-world expectations, where performance-related features tend to have a stronger influence on smartphone pricing than isolated hardware components.
 
 ---
 
