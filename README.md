@@ -24,6 +24,7 @@ Prices were originally provided in Indian Rupees (INR) and converted to USD to e
 - Scikit-learn
 
 ## 📂 Project Structure
+```text
 smartphones-project/
 ├── data/
 │   └── smartphones.csv
@@ -33,6 +34,7 @@ smartphones-project/
 │   └── 03_price_segmentation_and_recommendations.ipynb
 ├── README.md
 ├── requirements.txt
+````
 
 ## 🚀 How to Run
 1. Clone this repository  
